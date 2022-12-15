@@ -1,0 +1,17 @@
+@import 'variables.scss';
+
+@function c-pos($pos){
+    @return map-get($content-pos, $pos);
+}
+
+@function i-pos($pos){
+    @return map-get($item-pos, $pos);
+}
+
+@function wrap($wrap){
+    @return map-get($flex-wrap, $wrap);
+}
+
+@function direction($direction){
+    @return map-get($flex-direction, $direction);
+}

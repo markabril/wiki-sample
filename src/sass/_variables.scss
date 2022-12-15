@@ -1,0 +1,64 @@
+$base-size:1rem;
+
+
+$content-pos:(
+    'l':flex-start,
+    'r':flex-end,
+    'c':center,
+    'sb':space-between,
+    'sa':space-around,
+    'se':space-evenly,
+    's':stretch,
+    '0':none
+);
+
+$item-pos:(
+    'l':flex-start,
+    'r':flex-end,
+    'c':center,
+    's':stretch,
+    'b':baseline,
+    '0':none
+);
+
+$flex-direction:(
+    'r':row,
+    'rr':row-reverse,
+    'c':column,
+    'cr':column-reverse
+);
+
+$flex-wrap:(
+    'nw':nowrap,
+    'w':wrap,
+    'wr':wrap-reverse
+);
+
+$fonts:(
+    'l':flex-start,
+    'r':flex-end,
+    'c':center,
+    's':stretch,
+    'b':baseline
+);
+
+$sizes:(
+    "1": $base-size * .25,
+    "2": $base-size * .5,
+    "3": $base-size * .75,
+    "4": $base-size * 1,
+    "5": $base-size * 1.25,
+    "6": $base-size * 1.5,
+    "7": $base-size * 1.75,
+    "8": $base-size * 2,
+);
+
+$font-family:(
+    'font-1':'Cinzel',
+    'font-2':'EB Garamond',
+    'font-3':'Gruppo',
+    'font-4':'Orbitron',
+    'font-5':'Poppins',
+    'font-6':'Ubuntu',
+    'font-7':'Urbanist',
+)
